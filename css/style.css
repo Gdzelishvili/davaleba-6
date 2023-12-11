@@ -1,0 +1,173 @@
+.container {
+  width: 1440px;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+}
+
+.flex_start {
+  /*border: 10px solid red;*/
+  display: flex;
+  width: 1440px;
+  height: 160px;
+  padding: 52px 98px;
+  justify-content: center;
+  align-items: center;
+  gap: 251px;
+  flex-shrink: 0;
+}
+
+.logo1 {
+  vertical-align: middle;
+}
+
+li {
+  display: inline-block;
+
+}
+
+.active {
+  color: rgba(39, 24, 127, 1);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.no_active {
+  color: rgba(117, 139, 253, 1);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.middle_text {
+  margin: 0 50px;
+}
+
+.fa-magnifying-glass {
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: 3px solid #27187F;
+  color: rgba(117, 139, 253, 1);
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+}
+
+.cards {
+  /*display: flex;*/
+  /*ეს ვეღარ გამოვიყენე flex-wrap: wrap; მესამე სურათს ქვევით აგდებს და justify-content:space-around არ აკეთებს რო ვუთითებ*/
+  /*flex-wrap: wrap;*/
+  width: 1440px;
+  height: 1052px;
+  padding: 115px 98px;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  flex-shrink: 0;
+  background-color: rgba(221, 234, 248, 1);
+}
+
+.ilustration {
+  /*გამოვიდა ძვლის ამისთვის უნდა დამეწერა თურმე. ეს ქარდები კიდე ცალკე რო იყო გაერთიანებული სხვა ტეგეში გვიან შევამჩნიე :D */
+  /*background-color: black;*/
+  display: flex;
+  width: 1244px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h2 {
+  color: #27187F;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 68px;
+}
+
+.figure {
+  margin-top: 68px;
+  width: 400px;
+  height: 333px;
+  padding: 33px 30px;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+.img {
+  width: 100%;
+  height: 188px;
+}
+
+figcaption {
+  color: #133B3A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 33px;
+}
+
+footer {
+  display: flex;
+  width: 1440px;
+  background-color: #758BFD;
+  padding: 75px 98px;
+  justify-content: space-between
+  ;
+}
+
+.personal_information {
+  width: 160px;
+}
+
+h4 {
+  color: #00CAD7;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  /* 85% */
+  letter-spacing: 0.2px;
+}
+
+.mail {
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  /* 130.769% */
+  letter-spacing: 0.2px;
+  /*ეს მარჯინები არ მუშაობს ვერმივხვდი რატო*/
+  /*margin-top: 21px;
+  margin-bottom: 12px;*/
+}
+
+.social_icons {
+  /*display: flex;
+  justify-content: space-between;*/
+  /*background-color: red;*/
+  gap: 24px;
+  color: white;
+}
+
+.socials {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: #FFF;
+}
+
+.PayMenth-Methods {
+  display: inline-flex;
+  justify-content: space-evenly;
+  /*background-color: black;*/
+}
+
+.money {
+  background-color: #ffffff;
+}
